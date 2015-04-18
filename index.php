@@ -6,12 +6,7 @@
         <link rel="stylesheet" href="css/animate.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
         
-        <!-- Scripts -->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/jpreloader.min.js"></script>
-        <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+        
     </head>
     
     <body>
@@ -19,5 +14,12 @@
         <div class="container">
             
         </div>
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/jpreloader.min.js"></script>
+        <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
     </body>
 </html>

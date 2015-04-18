@@ -4,6 +4,7 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
         <link rel="stylesheet" href="css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         
         <!-- Scripts -->
         <script type="text/javascript" src="js/materialize.min.js"></script>

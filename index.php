@@ -6,6 +6,14 @@
         <link rel="stylesheet" href="css/materialize.min.css" type="text/css" />
         <link rel="stylesheet" href="css/animate.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/jpreloader.min.js"></script>
+        <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="js/noframework.waypoints.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     
     <body>
@@ -35,14 +43,26 @@
                 
             </div>
         </section>
+
+        <div id="yo">
+            
+        </div>
         
         
-        <!-- Scripts -->
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/jpreloader.min.js"></script>
-        <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
-        <script type="text/javascript" src="js/noframework.waypoints.min.js"></script>
+        
     </body>
+    
+    <div id="jSplash" class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only <?=$bordercolor;?>">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        
+        
 </html>

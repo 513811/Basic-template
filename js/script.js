@@ -19,11 +19,18 @@ jQuery(document).ready(function($){
     $("body").jpreLoader(
 		{
 			splashID:"#jSplash",
-			showPercentage:!0,
+			showPercentage:0,
 			autoClose:!0,
 			showSplash: true,
 			splashFunction:function(){
-			$("#circle").delay(1250).animate({opacity:1},700,"linear");
-		}
+				$("#jSplash").delay(1250).animate({opacity:1},700,"linear");
+			}
 	});
 });
+
+var waypoint = new Waypoint({
+  element: document.getElementById('yo'),
+  handler: function() {
+    notify('Basic waypoint triggered')
+  }
+})

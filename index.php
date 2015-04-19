@@ -10,27 +10,32 @@
     
     <body>
         <?php include "php/navbar.php"; ?>
-        <div class="parallax-container" id="parallax-header">
-            <div class="section no-pad-bot">
+        <section id="home">
+            <div class="overlay">
                 <div class="container">
-                    <h1 class="header center <?=$textcolor;?>" style="padding-top: 120px;">Basic template</h1>
-                    <hr>
-                    <div class="row center">
-                        <h5 class="header center light"></h5>
-                    </div>
-                    <div class="row center">
-                        <a href="#" class="btn-large waves-effect waves-light <?=$color;?>">Find out more</a>
+                    <div class="row">
+                        <div class="home-inner">
+                            <div class="center home-content">
+                                <h1 class="home-title">Basic<span class="<?=$textcolor;?>"> template</span></h1>
+                                <h2 class="home-subtitle">The most basic starter template!</h2>
+                                <a href="#" class="btn-large waves-effect waves-light <?=$color;?>">Find out more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="section-call-to-area">
+                    <div class="container">
+                        <div class="row">
+                            <a href="#about" class="btn-floating btn-large btn-middle call-to-about section-call-to-btn animated btn-show" data-section="#about">
+                                <i class="mdi-navigation-expand-more"></i>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+                
             </div>
-            <div class="parallax">
-                <img src="images/header1.jpg" style="display: block;"></img>
-            </div>
-        </div>
+        </section>
         
-        <div class="container white">
-            nojj
-        </div>
         
         <!-- Scripts -->
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
@@ -38,5 +43,6 @@
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/jpreloader.min.js"></script>
         <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="js/noframework.waypoints.min.js"></script>
     </body>
 </html>

@@ -115,8 +115,8 @@ nav ul li:hover, nav ul li.active {
 
 nav ul li a:hover, nav ul li a.active {
 	background-color: rgba(245, 245, 245, 0.1);
-	border-bottom:3px solid #fc4225;
-	line-height:74px;
+	border-bottom:3px solid #2bbbad;
+	line-height:77px;
 }
 
 nav .nav-wrapper i {

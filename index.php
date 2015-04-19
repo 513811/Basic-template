@@ -14,7 +14,7 @@
             <div class="section no-pad-bot">
                 <div class="container">
                     <h1 class="header center <?=$textcolor;?>" style="padding-top: 120px;">Basic template</h1>
-                    <div class="hr-line"><i class="mdi-action-star-rate"></i></div>
+                    <hr>
                     <div class="row center">
                         <h5 class="header center light"></h5>
                     </div>
@@ -26,6 +26,10 @@
             <div class="parallax">
                 <img src="images/header1.jpg" style="display: block;"></img>
             </div>
+        </div>
+        
+        <div class="container white">
+            nojj
         </div>
         
         <!-- Scripts -->

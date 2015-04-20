@@ -33,6 +33,7 @@ hr {
     border-bottom:1px solid #ccc;
     margin:0 2% 0 -55%;
 }
+
 .hr-line:after{
     margin:0 -55% 0 2%;
 }
@@ -133,7 +134,7 @@ footer.page-footer {
 }
 
 #home .overlay {
-  background: rgba(0,0,0, .7);
+  background: rgba(0,0,0, .6);
   width: 100%;
   height: 100%;
 }
